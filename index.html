@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Food Mate is an AI-based food subscription that will help you to eat healthy again. Customized to your own personal preferences and nutritional needs."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      type="module"
+    ></script>
+    <script
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      nomodule
+    ></script>
+    <script
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+      defer
+    ></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Food Mate &mdash; Eat Heathy Again!</title>
+  </head>
+
+  <body>
+    <!-- Start of HEADER -->
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo-food-mate"
+          src="img/food-mate-logo.png  "
+          alt="Food Mate logo"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how">How it works</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#meals">Meals</a>
+            <a class="main-nav-link" href="#meals">Meals</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Try for free!</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav"
+          name="menu-outline"
+          role="img"
+          aria-label="menu outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav"
+          name="close-outline"
+          role="img"
+          aria-label="close outline"
+        ></ion-icon>
+      </button>
+    </header>
+    <!-- End of HEADER -->
+
+    <!-- Start of MAIN -->
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal for you and your loved ones, every day!
+            </h1>
+            <p class="hero-description">
+              The smart AI-based food subscription for everyday will help you to
+              eat healthy again. Customized to your own personal preferences and
+              nutritional needs.
+            </p>
+            <a class="btn btn--full margin-right-sm" href="#cta"
+              >Start Eating healthy</a
+            >
+            <a class="btn btn--outline" href="#how">Learn More &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-1.jpg"
+                  alt="Customer Photo"
+                />
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-2.jpeg"
+                  alt="Customer Photo"
+                />
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-3.jpg"
+                  alt="Customer Photo"
+                />
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-4.jpg"
+                  alt="Customer Photo"
+                />
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-5.jpg"
+                  alt="Customer Photo"
+                />
+                <img
+                  class="delivered-img"
+                  src="img/customers/customer-6.jpg"
+                  alt="Customer Photo"
+                />
+              </div>
+              <p class="delivered-text">
+                <span>500,000+</span> meals delivered last year
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="/img/hero.webp" type="image/webp" />
+              <source srcset="/img/hero.png" type="image/png" />
+              <img
+                class="hero-img"
+                src="img/hero.png"
+                alt="A chief-cook is cutting ingredients in the kitchen, foods on the kitchen shelf, Friends enjoying their healthy foods with some delicious drink. "
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured-in">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos-featured-in">
+            <img
+              class="logo-featured-in"
+              src="img/logos/business-insider.png"
+              alt="The logo of Business Insider"
+            />
+            <img
+              class="logo-featured-in"
+              src="img/logos/forbes.png"
+              alt="The logo of Forbes"
+            />
+            <img
+              class="logo-featured-in"
+              src="img/logos/techcrunch.png"
+              alt="The logo of  Techrunch"
+            />
+            <img
+              class="logo-featured-in"
+              src="img/logos/the-new-york-times.png"
+              alt="The logo of New York Times"
+            />
+            <img
+              class="logo-featured-in"
+              src="img/logos/usa-today.png"
+              alt="The logo of USA Today"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Eat healthier and feel better in 3 simple step
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid-center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Tell us who you are:</h3>
+            <p class="step-description">
+              Don't waste your time thinking on what to eat! Food Mate AI system
+              will create a 100% tailored different weekly meal plans for
+              you.You will just choose your preferences, tell us want you want,
+              and you will receive it every-single-day of the year!
+            </p>
+          </div>
+
+          <div class="step-img-box flex">
+            <img
+              class="step-img"
+              src="img/app/app-screen-1.png"
+              alt="'Phone app preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box flex">
+            <img
+              class="step-img"
+              src="img/app/app-screen-2.png"
+              alt="'Phone app preferences selection screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              Approve your personalized weekly meal plan:
+            </h3>
+            <p class="step-description">
+              At the beginning of each week, after you see different options our
+              system provides you, you will choose and approve the meal plan
+              generated for you. You may quickly substitute components, swap
+              complete meals, or even add your own recipes.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">
+              Approve your personalized weekly meal plan:
+            </h3>
+            <p class="step-description">
+              Every day, the top chefs in town will prepare your chosen meal,
+              and we will deliver it to your door whenever it is most convenient
+              for you. You have the ability to adjust your delivery time and
+              address on a daily basis!
+            </p>
+          </div>
+          <div class="step-img-box flex">
+            <img
+              class="step-img"
+              src="img/app/app-screen-3.png"
+              alt="'Phone app preferences selection screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Food Mate chooses from 10,000+ recipes
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img class="meal-img" src="img/meals/meal-1.jpg" alt="Bibimbap" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+                <span class="tag tag--korean">Korean</span>
+              </div>
+              <p class="meal-title">Bibimbap</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="flame-outline"
+                    role="img"
+                    aria-label="meal outline"
+                  ></ion-icon
+                  ><span> <strong>490</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="leaf-outline"
+                    role="img"
+                    aria-label="leaf outline"
+                  ></ion-icon
+                  ><span> Nutri-Score &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-outline"
+                    role="img"
+                    aria-label="star outline"
+                  ></ion-icon
+                  ><span> <strong>4.9</strong> rating (829)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              class="meal-img"
+              src="img/meals/meal-2.jpg"
+              alt="Grilled Vegetables"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--gluten-free">Gluten-free</span>
+              </div>
+              <p class="meal-title">Grilled Veggies</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="flame-outline"
+                    role="img"
+                    aria-label="flame outline"
+                  ></ion-icon
+                  ><span> <strong>400</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="leaf-outline"
+                    role="img"
+                    aria-label="leaf outline"
+                  ></ion-icon
+                  ><span> Nutri-Score &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-outline"
+                    role="img"
+                    aria-label="star outline"
+                  ></ion-icon
+                  ><span> <strong>4.8</strong> rating (567)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Whatever you want:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Vegetarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Vegan</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Gluten-free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Lactose-free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Keto</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Kid-friendly</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Pescatarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Paleo</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>and much more!</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a class="link" href="#">See all recipes &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testiomonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't let go</h2>
+
+          <div class="testimonials" id="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/aleksandra-nowak.jpeg"
+                alt="Photo of Customer Aleksandra Nowak "
+              />
+              <blockquote class="testimomial-text">
+                It's a great meal application! Without having to order manually,
+                you may get low-cost,healthful, and delicious meals literally
+                any time you want.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Aleksandra Nowak</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/song-jun-ho.jpg"
+                alt="Photo of Customer Song Jun Ho"
+              />
+              <blockquote class="testimomial-text">
+                The AI system is incredible; it consistently selects the best
+                meals for me. It's amazing not have to to worry about what to
+                eat anymore!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Song Jun Ho</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/layla-khan.jpg"
+                alt="Photo of Customer Layla Khan"
+              />
+              <blockquote class="testimomial-text">
+                I purchased Food Mate for the entire family, and it has saved me
+                so much time! Furthermore, everything is organic, vegan, and
+                free of plastic.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Layla Khan</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/marvin-joseph.jpeg"
+                alt="Photo of Customer Marvin Joseph"
+              />
+              <blockquote class="testimomial-text">
+                Food Mate is a lifesaver! I've just started a business, so I
+                don't have time to cook. I couldn't imagine going a day without
+                it. It's my best mate!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Marvin Joseph</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully arrange food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">Eat healthy at an affordable price</h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price">599<span>zł</span></p>
+              <p class="plan-text">per month. That's just 19zł per meal!</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>1 Meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Order 11am-9pm</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Delivery is free!</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon list-icon--cross md hydrated"
+                  name="close-outline"
+                  role="img"
+                  aria-label="close outline"
+                ></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a class="btn btn--full" href="#">Start Eating healthy</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price">999<span>zł</span></p>
+              <p class="plan-text">per month. That's just 16zł per meal!</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span><strong>2 Meals</strong> per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Order <strong>24/7</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Delivery is free!</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon md hydrated"
+                  name="checkmark-outline"
+                  role="img"
+                  aria-label="checkmark outline"
+                ></ion-icon
+                ><span>Get latest recipes </span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a class="btn btn--full" href="#">Start Eating healthy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes, no hidden fees. All plans
+            include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon
+              class="feature-icon md hydrated"
+              name="restaurant-outline"
+              role="img"
+              aria-label="restaurant outline"
+            ></ion-icon>
+            <p class="feature-title">Don't cook again!</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title" role="img" aria-label="leaf outline">
+              Various and organic
+            </p>
+            <p class="feature-text">
+              Our cooks are skilled in many different cuisine and organic
+              dishes.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="pause-outline"
+              role="img"
+              aria-label="pause outline"
+            ></ion-icon>
+            <p class="feature-title">Pause anytime!</p>
+            <p class="feature-text">
+              Are you going on holiday? Have fun! Just pause your subscription
+              for later.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="construct-outline"
+              role="img"
+              aria-label="construct outline"
+            ></ion-icon>
+            <p class="feature-title">Change of Plans</p>
+            <p class="feature-text">
+              You can change from one plan to another anytime you want, no
+              restrictions!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Your first meal is on us!</h2>
+              <p class="cta-text">
+                Meals that are nutritious, flavorful, and easily reachable are
+                waiting for you. Start eating healthy today. You can end or
+                pause your subscription at any moment with no difficulty. We'll
+                even pay for your first meal!
+              </p>
+
+              <form class="cta-form" name="sign-up">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    name="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="example@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear about us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="podcast">Podcasts</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now!</button>
+              </form>
+            </div>
+
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End of MAIN -->
+
+    <!-- Start of FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a class="footer-logo" href="#">
+            <img
+              class="logo-food-mate"
+              src="img/food-mate-logo.png  "
+              alt="Food Mate logo"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-nav-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-instagram"
+                  role="img"
+                  aria-label="logo instagram"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-nav-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-facebook"
+                  role="img"
+                  aria-label="logo facebook"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-nav-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-twitter"
+                  role="img"
+                  aria-label="logo twitter"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Food Mate, Inc.
+            All rights reserved
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address footer-nav-link">
+              Nowhere St, 1st Floor, Krakow, PL
+            </p>
+            <a class="footer-nav-link" href="tel:+0123-456-789">123-456-8789</a>
+            <p></p>
+            <p>
+              <a class="footer-nav-link" href="mailto:info@foodmate.pl"
+                >info@foodmate.pl</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#cta">Create account</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Sign in</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">IOS App</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Android App</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">About Food Mate</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">For Business</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Cooking Partners</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Recipe directory</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Help center</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Privacy & terms</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- End of FOOTER -->
+  </body>
+</html>
